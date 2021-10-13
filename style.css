@@ -12,12 +12,15 @@
   margin: 16px;
   font-weight: lighter;
 }
+li{
+  list-style: none;
+}
 .navbar {
   background-color: #444444;
   padding: 0 10px;
 }
 
-li {
+.navbar li {
   display: inline-block;
   padding: 8px 15px;
   color:white;
@@ -53,6 +56,22 @@ main{
 }
 main article{
   margin-bottom: 80px;
+}
+main .article-title{
+  font-size: 1.5rem;
+  margin: 10px 0 15px 0;
+}
+main ul{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+main li{
+  font-size: 0.875rem;
+  margin-right: 20px;
+}
+main .text{
+  padding: 10px 40px 30px 40px;
 }
 #sidebar{
   width: 33%;
