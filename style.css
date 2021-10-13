@@ -39,16 +39,6 @@ li {
   font-size: 0.875rem;
   text-align: center;
 }
-.readmore a::after{
-  content: '';
-  position: absolute;
-  height: 1px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background: #333;
-  transition: all 200ms ease;
-}
 .wrapper{
   max-width: 1200px;
   padding: 0 16px;
@@ -56,4 +46,15 @@ li {
 }
 img{
   max-width: 100%;
+}
+
+main{
+  width: 65%;
+}
+main article{
+  margin-bottom: 80px;
+}
+#sidebar{
+  width: 33%;
+  padding: 20px;
 }
