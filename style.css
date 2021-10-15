@@ -80,16 +80,19 @@ main .text{
 #sidebar{
   width: 33%;
   padding: 20px;
+  text-align: center;
+}
+.author,.ranking,.archive{
+  margin-bottom: 60px;
 }
 #sidebar .side-title{
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 30px;
 }
-/* author */
-.author,.ranking,.archive{
-  text-align: center;
-  margin-bottom: 60px;
+.profile{
+  font-size: 0.875rem;
+  text-align: left;
 }
 .author img{
   width: 130px;
@@ -97,13 +100,13 @@ main .text{
   border-radius: 50%;
   margin-bottom: 30px;
 }
-.profile{
-  font-size: 0.875rem;
-  text-align: left;
-}
 .archive li{
   font-size: 0.875rem;
   border-top: solid 1px #777;
   padding: 20px;
   text-align: left;
+}
+footer{
+  font-size: 0.875rem;
+  background-color: #f7f7f7;
 }
