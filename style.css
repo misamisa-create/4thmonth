@@ -101,3 +101,9 @@ main .text{
   font-size: 0.875rem;
   text-align: left;
 }
+.archive li{
+  font-size: 0.875rem;
+  border-top: solid 1px #777;
+  padding: 20px;
+  text-align: left;
+}
